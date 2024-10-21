@@ -1,0 +1,26 @@
+{% extends "base_index.html" %}
+
+{% block head_includes %}
+<link rel="stylesheet" href="../static/home.css">
+{% endblock head_includes %}
+
+{% block content %}
+
+    <div class="events" onclick="location.href='/added_events'">
+        <div class="event_1">
+            <div class="title_register">
+                <p>{{title}}</p>
+                <form action="{{ url_for('register')}}">
+                <button style=" padding: 6px 15px; border: none; background-color: lightgreen; border-radius: 20px; font-weight: bold;">Register</button>
+            </form>
+            </div>
+            <div class="date_time_location">
+                <P class="date">{{date}}</P>
+                <p class="time">{{time}}</p>
+                <p class="location">{{location}}</p>
+            </div>
+        </div>
+    </div>
+
+
+{% endblock content %}

@@ -1,0 +1,45 @@
+html{
+    font-family: Roboto, Arial, sans-serif;
+}
+
+div, p, body, hr{
+    margin: 0;
+    padding: 0;
+}
+
+hr{
+    margin: 10px 0px;
+}
+/* ------------------------------------------------- */
+
+.top_pannel{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(58, 64, 70);
+    height: 40px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.ongoing button, .previous button{
+    border: none;
+    background-color: rgb(58, 64, 70);
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.shedule_event button{
+    font-size: 20px;
+    padding: 8px 100px;
+    background-color: lightgreen;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+
